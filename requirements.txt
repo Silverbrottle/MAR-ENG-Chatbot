@@ -196,7 +196,6 @@ PyQtWebEngine==5.12.1
 pyquery==1.4.1
 pyreadline==2.1
 pyrsistent==0.15.7
-pyspark==3.0.1
 pyTelegramBotAPI==3.7.7
 python-crfsuite==0.9.7
 python-dateutil==2.8.1
@@ -209,7 +208,6 @@ python-socketio==5.0.0
 pyttsx3==2.90
 pytube3==9.6.4
 pytz==2019.3
-PyWavelets==1.1.1
 pywin32==227
 pywin32-ctypes==0.2.0
 pywinpty==0.5.7

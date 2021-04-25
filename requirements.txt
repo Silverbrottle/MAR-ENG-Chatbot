@@ -207,7 +207,6 @@ python-resize-image==1.1.19
 python-socketio==5.0.0
 pyttsx3==2.90
 pytube3==9.6.4
-pytz==2019.3
 pywin32==227
 pywin32-ctypes==0.2.0
 pywinpty==0.5.7

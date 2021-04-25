@@ -110,13 +110,6 @@ jmespath==0.10.0
 joblib==0.15.1
 jsonpickle==1.4.1
 jsonschema==3.2.0
-kafka-python==1.4.7
-keyring==21.1.0
-kivy-deps.angle==0.3.0
-kivy-deps.glew==0.3.0
-kivy-deps.sdl2==0.3.1
-Kivy-Garden==0.1.4
-kiwisolver==1.1.0
 lazy-object-proxy==1.4.2
 lxml==4.5.2
 magickwand==0.2

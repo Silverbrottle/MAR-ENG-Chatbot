@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Choose Language</title>
+  <style>
+    body {background-color: powderblue;}
+    h1   {color: blue;}
+    p    {color:  rgb(189, 151, 224); text-align:center}
+    .container img {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  
+
+}
+    .container {max-width: 500px;
+    background-color:   rgb(189, 167, 209);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 15px 20px rgba(0,0,0,0);
+  }
+  .container .text-area2{
+      display: flex;
+      padding: 20px 60px 20px;
+      border-radius: 5px;
+    }
+    .container  .b1{
+
+      height: 100%;
+      width: 100%;
+      padding: 10px 50px 10px;
+      border-radius: 15px;
+      outline: none;
+    }
+    .container .text-area{
+      background-color: cyan;
+      height: 100%;
+      width: 100%;
+      padding: 5px;
+      border-radius: 15px;
+      outline: none;
+    }
+    </style>
+    </head>
+    <body>
+  <link rel="stylesheet" href="{{url_for('static',filename='/css/style1.css')}}">
+</head>
+<body>
+  <div class="container">
+    <center>
+    <img src="{{url_for('static',filename='img/Chatlogo.jfif')}}" alt='logo' />
+  </center>
+    {% if user %}
+      <p>Welcome, <b>{{user}}</b></p>
+    {% endif %}
+    <p>Select a language to continue with chatbot:</p>
+    <div class="text-area2">
+      <button class="b1" style="margin-right: 20px" onclick="window.location.href='{{url_for('index2')}}';">Marathi</button>
+      <button class="b1" style="margin-right: 20px" onclick="window.location.href='{{url_for('index3')}}';">English</button>
+    </div>
+    
+    <button class="text-area" onclick="window.location.href='{{url_for('logout')}}';">Log out</button>
+
+  </div>
+</body>
+</html>

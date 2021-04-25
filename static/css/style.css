@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  outline: none;
+  border: none;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: blueviolet;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*chatbot-section*/
+.chat-bot {
+  width: 600px;
+  height: 600px;
+  background-color: aliceblue;
+  overflow: hidden;
+  border-radius: 20px;
+  position: relative;
+}
+
+/*about client*/
+.client {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  height: 100px;
+  background-color: darkgrey;
+  padding: 15px;
+}
+
+.client img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.client-info {
+  color: rgb(247, 250, 252);
+  padding: 15px;
+  display: inline-block;
+}
+
+.client-info p {
+  color: rgb(119, 238, 104);
+  font-weight: bold;
+  font-size: 0.8em;
+}
+
+.info {
+  text-align: center;
+  float: left;
+}
+
+/*chat-section*/
+.chats {
+  width: 100%;
+  height: 435px;
+  padding: 0 15px;
+  color: floralwhite;
+  position: relative;
+  font-size: 0.9em;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.client-chat {
+  width: 60%;
+  word-wrap: break-word;
+  background-color: blueviolet;
+  padding: 7px 10px;
+  border-radius: 10px 10px 10px 0;
+  margin: 10px 0;
+}
+
+.my-chat {
+  width: 60%;
+  word-wrap: break-word;
+  background-color: rgb(189, 167, 209);
+  padding: 7px 10px;
+  border-radius: 10px 10px 0 10px;
+  margin: 5px 0 5px auto;
+}
+
+/*input section*/
+
+.chat-input {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 65px;
+  background-color: white;
+  padding: 15px;
+  overflow: hidden;
+  position: absolute;
+  bottom: 0;
+}
+
+.chat-input input {
+  width: calc(100% - 40px);
+  height: 100%;
+  background-color: rgb(252, 250, 253);
+  height: 100%;
+  background-color: rgb(189, 167, 209);
+  border-radius: 50px;
+  color: black;
+  font-size: 1.2em;
+  padding: 0 15px;
+}
+
+.send-btn {
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  overflow: hidden;
+  position: relative;
+  margin-left: 5px;
+  cursor: pointer;
+  transition: 0.4% ease-in-out;
+}
+
+.send-btn:active {
+  transform: scale(0.85);
+}
+
+.send-btn img {
+  width: 100%;
+  height: 100%;
+}
+/*chat box button*/
+.chat-btn {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: white;
+  cursor: pointer;
+  overflow: hidden;
+  position: fixed;
+  bottom: 20px;
+}
+
+.chat-btn img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  position: absolute;
+  /*text-outline: 0;*/
+  left: 0;
+  padding: 5px;
+  transition: 0.4s ease-in-out;
+}
+
+.chat-btn:hover img {
+  transform: rotate(30deg);
+}

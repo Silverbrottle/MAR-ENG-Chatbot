@@ -250,7 +250,6 @@ terminado==0.8.3
 terminaltables==3.1.0
 testpath==0.4.4
 thinc==7.4.5
-tifffile==2020.6.3
 torch==1.8.1+cpu
 torchaudio==0.8.1
 torchvision==0.9.1+cpu

@@ -206,16 +206,11 @@ python-language-server==0.31.8
 python-resize-image==1.1.19
 python-socketio==5.0.0
 pyttsx3==2.90
-pytube3==9.6.4
 pywin32==227
 pywin32-ctypes==0.2.0
 pywinpty==0.5.7
 PyYAML==5.3.1
 pyzmq==19.0.0
-QDarkStyle==2.8
-QtAwesome==0.7.0
-qtconsole==4.6.0
-QtPy==1.9.0
 questionary==1.5.2
 queuelib==1.5.0
 redis==3.5.3
@@ -232,9 +227,6 @@ ruamel.yaml==0.16.13
 ruamel.yaml.clib==0.2.2
 s3transfer==0.3.6
 sanic==20.9.0
-Sanic-Cors==0.10.0.post3
-sanic-jwt==1.6.0
-Sanic-Plugins-Framework==0.9.5
 Scrapy==2.4.1
 Send2Trash==1.5.0
 sentencepiece==0.1.95
@@ -243,8 +235,6 @@ service-identity==18.1.0
 shutils==0.1.0
 simplejson==3.17.0
 six==1.15.0
-sklearn==0.0
-sklearn-crfsuite==0.3.6
 slackclient==2.9.3
 smart-open==3.0.0
 smmap==4.0.0

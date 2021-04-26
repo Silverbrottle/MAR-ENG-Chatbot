@@ -61,6 +61,9 @@ def indexlogin():
                 else:
                     err = "Incorrect Login Details..."
                     return render_template("index.html", err=err)
+            else:
+                err = "No account registered with this credentials..."
+                return render_template("index.html", err=err)
         else:
             cpass = request.form.get("cpass")
             if password == cpass:

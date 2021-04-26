@@ -33,7 +33,13 @@ model.eval()
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    if "username" in session:
+        user = session["username"]
+        user = user.split("@")
+        user = user[0]
+        return redirect(url_for("opt"))
+    else:
+        return render_template('index.html')
 
 
 @app.route('/', methods=["POST"])
@@ -177,4 +183,4 @@ def logout():
 
 
 if __name__ == '__main__':
-    app.run(threaded=True,debug=True)
+    app.run(threaded=True, debug=True)
